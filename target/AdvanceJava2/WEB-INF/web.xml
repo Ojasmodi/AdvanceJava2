@@ -1,0 +1,43 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app >
+	<display-name>Archetype Created Web Application</display-name>
+	
+	<context-param>
+		<param-name>app-title</param-name>
+		<param-value>
+			Image Management Utility
+		</param-value>
+		<description>Title of the app</description>
+	</context-param>
+
+	<context-param>
+		<param-name>file-upload</param-name>
+		<param-value>
+			C:\Users\ojasmodi\workspace\AdvanceJava2\src\main\webapp\Images\
+		</param-value>
+		<description>Location to store uploaded file</description>
+	</context-param>
+
+	<context-param>
+		<param-name>max-file-size</param-name>
+		<param-value>
+			1045558
+		</param-value>
+		<description>Max size of a single file(bytes)(1024*1024)i.e. 1MB </description>
+	</context-param>
+
+	<context-param>
+		<param-name>max-mem-size</param-name>
+		<param-value>
+			5242880
+		</param-value>
+		<description>Max size of all uploaded files(bytes)(5*1024*1024)i.e.
+			5MB
+		</description>
+	</context-param>
+
+
+</web-app>
